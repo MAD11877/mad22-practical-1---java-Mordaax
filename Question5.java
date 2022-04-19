@@ -27,12 +27,9 @@ public class Question5 {
      */
 
     Scanner in = new Scanner(System.in);
-
-    System.out.print("Number of integers:");
     ArrayList<Integer> al = new ArrayList<>();
     int integerCount = in.nextInt();
     for (int i = 1; i < integerCount + 1; i++) {
-      System.out.print("Integer " + i + ":");
       al.add(in.nextInt());
     }
     Collections.sort(al, Collections.reverseOrder());
