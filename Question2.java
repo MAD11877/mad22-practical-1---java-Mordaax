@@ -11,6 +11,11 @@ public class Question2
      */
      
     Scanner in = new Scanner(System.in);
+    System.out.print("Input height in Meters:");
     double height = in.nextDouble();
+    System.out.print("Input weight in KG:");
+    double weight = in.nextDouble();
+    System.out.print("Your BMI is:");
+    System.out.print( weight/(height*height) );
   }
 }

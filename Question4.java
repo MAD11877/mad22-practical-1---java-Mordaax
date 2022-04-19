@@ -18,6 +18,15 @@ public class Question4
      */
      
     Scanner in = new Scanner(System.in);
-    
+    System.out.print("Size of Triangle:");
+    int runcount = in.nextInt();
+    for (int i = runcount ; i > 0; i--){
+      for (int n = 0; n < i ; n++){
+        System.out.print("*");
+        
+      }
+      System.out.println();
+    }
+
   }
 }
